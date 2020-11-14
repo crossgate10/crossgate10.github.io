@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Last Day Diary</title>
+    <link>https://crossgate10.github.io/</link>
+    <description>Recent content on Last Day Diary</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 13 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://crossgate10.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Golang 調度器如何高效處理 goroutine?</title>
+      <link>https://crossgate10.github.io/posts/2020-11-13-3/</link>
+      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://crossgate10.github.io/posts/2020-11-13-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>如何寫出優雅的go package</title>
+      <link>https://crossgate10.github.io/posts/2020-11-13-2/</link>
+      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://crossgate10.github.io/posts/2020-11-13-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>節流(throttle)與防抖(debounce)</title>
+      <link>https://crossgate10.github.io/posts/2020-11-13-1/</link>
+      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://crossgate10.github.io/posts/2020-11-13-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MySQL/MariaDB 測試資料庫（stackoverflow）</title>
+      <link>https://crossgate10.github.io/posts/2020-11-12-2/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://crossgate10.github.io/posts/2020-11-12-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>如何從外網連線到localhost，同時可以指定子域名</title>
+      <link>https://crossgate10.github.io/posts/2020-11-12-1/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://crossgate10.github.io/posts/2020-11-12-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MySQL 事物隔離層級（Isolation levels）</title>
+      <link>https://crossgate10.github.io/posts/2020-11-09/</link>
+      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://crossgate10.github.io/posts/2020-11-09/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>與同事 Pair Programming 的樂趣</title>
+      <link>https://crossgate10.github.io/posts/2020-10-20/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://crossgate10.github.io/posts/2020-10-20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>透過 Makefile 起 k3s, 再建個 ES &#43; Kibana 玩</title>
+      <link>https://crossgate10.github.io/posts/2020-08-03/</link>
+      <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://crossgate10.github.io/posts/2020-08-03/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Win10 &#43; Arch Linux 雙作業系統安裝</title>
+      <link>https://crossgate10.github.io/posts/2020-03-17/</link>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://crossgate10.github.io/posts/2020-03-17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>更改 dbeaver 預設顯示UTC</title>
+      <link>https://crossgate10.github.io/posts/2019-12-13/</link>
+      <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://crossgate10.github.io/posts/2019-12-13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MySQL row level lock 實驗</title>
+      <link>https://crossgate10.github.io/posts/2019-11-24/</link>
+      <pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://crossgate10.github.io/posts/2019-11-24/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
