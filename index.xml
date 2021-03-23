@@ -5,7 +5,17 @@
     <link>https://crossgate10.github.io/</link>
     <description>Recent content on Last Day Diary</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 22 Mar 2021 14:30:54 +0800</lastBuildDate><atom:link href="https://crossgate10.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Mar 2021 12:54:50 +0800</lastBuildDate><atom:link href="https://crossgate10.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>模擬百萬筆表格實驗</title>
+      <link>https://crossgate10.github.io/posts/2021-03-23/</link>
+      <pubDate>Tue, 23 Mar 2021 12:54:50 +0800</pubDate>
+      
+      <guid>https://crossgate10.github.io/posts/2021-03-23/</guid>
+      <description>模擬百萬筆表格實驗
+ 如何產生測試資料  CREATE TABLE IF NOT EXISTS `MK_Skus` ( `id` VARCHAR(255) NOT NULL, PRIMARY KEY (`id`) ); DELIMITER $$ CREATE PROCEDURE generate_skus() BEGIN DECLARE i INT DEFAULT 0; DECLARE j INT DEFAULT 0; DECLARE k INT DEFAULT 0; WHILE i &amp;lt; 2000 DO WHILE j &amp;lt; 5 Do WHILE k &amp;lt; 4 DO INSERT INTO `MK_Skus` (`id`) VALUES ( (100010110 + k*10 + j*100 + i*100000) ); SET k = k + 1; END WHILE; SET j = j + 1; SET k = 0; END WHILE; SET i = i + 1; SET j = 0; SET k = 0; END WHILE; END $$ DELIMITER ; CALL generate_skus(); 如何中斷在 MySQL DB 執行過久的 insert/update process?</description>
+    </item>
+    
     <item>
       <title>Don&#39;t End The Week With Nothing</title>
       <link>https://crossgate10.github.io/posts/2021-03-22/</link>
