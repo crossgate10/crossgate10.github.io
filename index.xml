@@ -5,13 +5,23 @@
     <link>https://crossgate10.github.io/</link>
     <description>Recent content on Last Day Diary</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 23 Mar 2021 12:54:50 +0800</lastBuildDate><atom:link href="https://crossgate10.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Mar 2021 17:47:18 +0800</lastBuildDate><atom:link href="https://crossgate10.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>談生涯規劃</title>
+      <link>https://crossgate10.github.io/posts/2021-03-23-2/</link>
+      <pubDate>Tue, 23 Mar 2021 17:47:18 +0800</pubDate>
+      
+      <guid>https://crossgate10.github.io/posts/2021-03-23-2/</guid>
+      <description>最終目標 → 水平切分成子目標 → 各個子目標在垂直切分成多個階段 → 各個階段可以在切分成多個小目標
+ 從一篇知乎上看到心得分享，但當下忘記留下 REF &amp;hellip;</description>
+    </item>
+    
     <item>
       <title>模擬百萬筆表格實驗</title>
-      <link>https://crossgate10.github.io/posts/2021-03-23/</link>
+      <link>https://crossgate10.github.io/posts/2021-03-23-1/</link>
       <pubDate>Tue, 23 Mar 2021 12:54:50 +0800</pubDate>
       
-      <guid>https://crossgate10.github.io/posts/2021-03-23/</guid>
+      <guid>https://crossgate10.github.io/posts/2021-03-23-1/</guid>
       <description>模擬百萬筆表格實驗
  如何產生測試資料  CREATE TABLE IF NOT EXISTS `MK_Skus` ( `id` VARCHAR(255) NOT NULL, PRIMARY KEY (`id`) ); DELIMITER $$ CREATE PROCEDURE generate_skus() BEGIN DECLARE i INT DEFAULT 0; DECLARE j INT DEFAULT 0; DECLARE k INT DEFAULT 0; WHILE i &amp;lt; 2000 DO WHILE j &amp;lt; 5 Do WHILE k &amp;lt; 4 DO INSERT INTO `MK_Skus` (`id`) VALUES ( (100010110 + k*10 + j*100 + i*100000) ); SET k = k + 1; END WHILE; SET j = j + 1; SET k = 0; END WHILE; SET i = i + 1; SET j = 0; SET k = 0; END WHILE; END $$ DELIMITER ; CALL generate_skus(); 如何中斷在 MySQL DB 執行過久的 insert/update process?</description>
     </item>
